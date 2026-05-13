@@ -4,9 +4,7 @@
 
 ## 人物传记
 
-- [Marc Andreessen：互联网的先知与冒险家](./figures/2026-05-10-Marc-Andreessen-马克-安德森)
 - [理查德·费曼](./figures/2026-05-11-理查德费曼-Richard-Feynman)
-- [Dario Amodei：AI时代的冷峻预言者](./figures/2026-05-12-Dario-Amodei-AI时代的冷峻预言者)
 
 ## 历史书籍
 
