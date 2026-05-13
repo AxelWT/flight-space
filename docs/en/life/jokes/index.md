@@ -1,3 +1,0 @@
-# Jokes
-
-Funny stories and jokes from everyday life. Content is continuously updated...

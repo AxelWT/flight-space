@@ -13,7 +13,7 @@ date: 2026-05-11
 
 ## About the Author
 
-Harari, born in 1976 in Haifa, Israel, holds a PhD in History from Oxford University and is a professor at the Hebrew University of Jerusalem. Don't be fooled by his historian title — the guy's academic跨度 is astonishing. Originally trained in military history, his writing seamlessly integrates biology, anthropology, economics, philosophy, and computer science.
+Harari, born in 1976 in Haifa, Israel, holds a PhD in History from Oxford University and is a professor at the Hebrew University of Jerusalem. Don't be fooled by his historian title — the guy's academic range is astonishing. Originally trained in military history, his writing seamlessly integrates biology, anthropology, economics, philosophy, and computer science.
 
 His books have sold over 50 million copies worldwide and been translated into 65 languages. Zuckerberg, Obama, and Bill Gates are all fans. In 2024, the New York Times included it in its "100 Best Books of the 21st Century." Harari later wrote *Homo Deus*, *21 Lessons for the 21st Century*, and *Nexus*, forming a complete "Human Series."
 
@@ -51,7 +51,7 @@ This attitude of **"admitting ignorance"** combined with imperialism and capital
 
 ### Idea 5: Are Humans Happier? Not Necessarily
 
-At the book's conclusion, Harari poses a冷静 question: We are certainly more powerful and live longer than our ancestors, but are we happier?
+At the book's conclusion, Harari poses a sobering question: We are certainly more powerful and live longer than our ancestors, but are we happier?
 
 There's no evidence. Hunter-gatherers probably had far less psychological stress and depression than modern people. They didn't have to work 996 to pay a mortgage or scroll through social media anxiously comparing themselves to others. Technological progress never promised happiness — it only promised more power, more choices, and more possibilities.
 

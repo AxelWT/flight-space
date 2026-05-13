@@ -27,7 +27,6 @@ export default defineConfig({
                             text: '',
                             items: [
                                 {text: '首页', link: '/life/'},
-                                {text: '心得 2026', link: '/life/Insights-2026'},
                             ],
                         },
                         {
@@ -39,36 +38,41 @@ export default defineConfig({
                             ],
                         },
                         {
-                            text: '笑话',
+                            text: '幽默',
                             items: [
-                                {text: '笑话首页', link: '/life/jokes/'},
                                 {text: '冷笑话', link: '/life/jokes/冷笑话'},
                             ],
                         },
                         {
                             text: '电影',
                             items: [
-                                {text: '经典电影', link: '/life/movies/经典电影'},
+                                {text: '周星驰系列', link: '/life/movies/周星驰系列电影'},
                             ],
                         },
                         {
                             text: '音乐',
                             items: [
-                                {text: '听了让人开心的歌曲', link: '/life/music/听了让人开心的歌曲'},
+                                {text: '按心情分类', link: '/life/music/按心情分类的歌曲'},
                             ],
                         },
                         {
                             text: '摄影',
                             items: [
                                 {text: '我的作品 2026', link: '/life/lens/我的作品-2026'},
+                                {text: '山川', link: '/life/lens/山川'},
                             ],
                         },
                     ],
                     '/history/': [
                         {
-                            text: '历史故事',
+                            text: '',
                             items: [
                                 {text: '首页', link: '/history/'},
+                            ],
+                        },
+                        {
+                            text: '历史书',
+                            items: [
                                 {text: '《人类简史》', link: '/history/books/2026-05-11-人类简史从动物到上帝-Sapiens'},
                             ],
                         },
@@ -76,6 +80,10 @@ export default defineConfig({
                             text: '人物传记',
                             items: [
                                 {text: '理查德·费曼', link: '/history/figures/2026-05-11-理查德费曼-Richard-Feynman'},
+                                {
+                                    text: '温斯顿·丘吉尔',
+                                    link: '/history/figures/2026-05-13-温斯顿丘吉尔坐在火山口上的铁血首相'
+                                },
                             ],
                         },
                     ],
@@ -105,11 +113,10 @@ export default defineConfig({
                             text: '',
                             items: [
                                 {text: 'Home', link: '/en/life/'},
-                                {text: 'Insights 2026', link: '/en/life/insights-2026'},
                             ],
                         },
                         {
-                            text: 'Communication',
+                            text: 'Dialogue',
                             items: [
                                 {text: 'Speaking Well', link: '/en/life/dialogue/speaking-well'},
                                 {text: 'Counseling for Toad', link: '/en/life/dialogue/counseling-for-toad'},
@@ -119,34 +126,39 @@ export default defineConfig({
                         {
                             text: 'Jokes',
                             items: [
-                                {text: 'Jokes Home', link: '/en/life/jokes/'},
                                 {text: 'Dry Jokes', link: '/en/life/jokes/dry-jokes'},
                             ],
                         },
                         {
                             text: 'Movies',
                             items: [
-                                {text: 'Classic Movies', link: '/en/life/movies/classic-movies'},
+                                {text: 'Stephen Chow', link: '/en/life/movies/stephen-chow'},
                             ],
                         },
                         {
                             text: 'Music',
                             items: [
-                                {text: 'Happy Songs', link: '/en/life/music/happy-songs'},
+                                {text: 'Songs by Mood', link: '/en/life/music/moods'},
                             ],
                         },
                         {
                             text: 'Photography',
                             items: [
                                 {text: 'My Works 2026', link: '/en/life/lens/my-works-2026'},
+                                {text: 'Mountains', link: '/en/life/lens/mountains'},
                             ],
                         },
                     ],
                     '/en/history/': [
                         {
-                            text: 'History',
+                            text: '',
                             items: [
                                 {text: 'Home', link: '/en/history/'},
+                            ],
+                        },
+                        {
+                            text: 'Books',
+                            items: [
                                 {text: 'Sapiens', link: '/en/history/books/sapiens'},
                             ],
                         },

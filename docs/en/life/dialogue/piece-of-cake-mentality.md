@@ -14,7 +14,7 @@ Simply put, this mindset is a double-edged sword. At certain moments, it's your 
 
 Let's break down this mentality and see what effects it actually has on you:
 
-## Shield: It's the Ballast for Your Stress Resistance
+## 🛡️ Upside: It's the Ballast for Your Stress Resistance
 
 If you've truly experienced high-pressure situations, then when facing relatively lower-level competitions, this "big picture" perspective can help you effectively reduce anxiety.
 
@@ -23,7 +23,7 @@ If you've truly experienced high-pressure situations, then when facing relativel
 
 At this level, it's a good thing — it shows you have a strong foundation of self-confidence.
 
-## Warning: It Easily Turns Into Fatal Complacency
+## ⚠️ Downside: It Easily Turns Into Fatal Complacency
 
 However, sports psychology tells us that once this "piece of cake" thought takes over, subtle changes happen in your subconscious. This state is called **"pre-competition overconfidence"** in sports psychology.
 
@@ -39,9 +39,9 @@ You unconsciously feel you can "win just by playing casually," leading to inadeq
 
 ### 3. Poor Resilience (Bubble Burst Effect)
 
-This is the scariest part. If you enter the game expecting to "dominate," once the opponent strikes back or you make early mistakes, your mental防线 collapses instantly. The huge psychological落差 from "I can easily win" to "Why can't I beat them" quickly destroys morale and even causes your technique to fall apart.
+This is the scariest part. If you enter the game expecting to "dominate," once the opponent strikes back or you make early mistakes, your mental defense collapses instantly. The huge psychological gap from "I can easily win" to "Why can't I beat them" quickly destroys morale and even causes your technique to fall apart.
 
-## What's a Better Mindset?
+## 💡 What's a Better Mindset?
 
 True masters never use past glory to look down on their current opponent. If you want to perform at your best, try adjusting to these three mindsets:
 

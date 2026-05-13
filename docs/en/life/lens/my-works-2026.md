@@ -44,7 +44,7 @@ Capturing moments in life through the lens.
 <div class="photo-gallery">
 
   <div class="photo-card">
-    <img src="/lens/felix.jpg" alt="Felix" loading="lazy" />
+    <img src="/lens/felix/felix.jpg" alt="Felix" loading="lazy" />
     <div class="info">
       <p class="title">Self Portrait</p>
       <p class="desc">2026 · Life Snapshot</p>
