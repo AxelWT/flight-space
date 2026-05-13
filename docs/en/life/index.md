@@ -25,3 +25,7 @@ Thoughts, insights, and learning from daily life.
 ### Music
 
 - [Happy Songs](./music/happy-songs)
+
+### Photography
+
+- [My Works 2026](./lens/my-works-2026) — Capturing moments through the lens

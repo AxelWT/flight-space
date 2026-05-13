@@ -57,6 +57,12 @@ export default defineConfig({
                                 {text: '听了让人开心的歌曲', link: '/life/music/听了让人开心的歌曲'},
                             ],
                         },
+                        {
+                            text: '摄影',
+                            items: [
+                                {text: '我的作品 2026', link: '/life/lens/我的作品-2026'},
+                            ],
+                        },
                     ],
                     '/history/': [
                         {
@@ -127,6 +133,12 @@ export default defineConfig({
                             text: 'Music',
                             items: [
                                 {text: 'Happy Songs', link: '/en/life/music/happy-songs'},
+                            ],
+                        },
+                        {
+                            text: 'Photography',
+                            items: [
+                                {text: 'My Works 2026', link: '/en/life/lens/my-works-2026'},
                             ],
                         },
                     ],
