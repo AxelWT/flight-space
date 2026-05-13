@@ -5,7 +5,7 @@ import {resolve} from 'node:path'
 export default defineConfig({
     lang: 'zh-CN',
     title: 'Flight Space',
-    description: 'Felix的个人博客 — 生活、历史、故事、笑话、电影',
+    description: 'Felix的生活',
     base: '/flight-space/',
     head: [
         ['link', {rel: 'alternate', type: 'application/rss+xml', title: 'Flight Space RSS', href: '/flight-space/feed.xml'}],
