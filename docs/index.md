@@ -3,23 +3,23 @@ layout: home
 
 hero:
   name: Flight Space
-  text: 记录生活与历史
-  tagline: 个人思考与知识沉淀的空间
+  text: 随便写写，认真生活
+  tagline: 一个普通人的自留地 — 拍拍照、看看书、写写代码、胡思乱想
   actions:
     - theme: brand
-      text: 生活随笔
+      text: 📖 随便看看
       link: /life/
     - theme: alt
-      text: 历史故事
+      text: 📜 历史小故事
       link: /history/
 
 features:
-  - title: 生活随笔
-    details: 心理学、沟通技巧、个人感悟 — 记录成长路上的思考与学习。
-  - title: 读书笔记
-    details: 各类书籍的阅读记录与心得，从文字中汲取智慧。
-  - title: 历史人物
-    details: 人物传记与历史故事 — 从他人的经历和历史的脉络中获得启发。
-  - title: 生活闲趣
-    details: 笑话、电影、音乐 — 日常生活中的轻松角落。
+  - title: 🍵 生活碎片
+    details: 摄影、音乐、电影、冷笑话 — 日常里那些让我开心的小事，都在这里了。
+  - title: 📚 读书笔记
+    details: 读完一本书，总得留下点什么。有历史的宏大，也有心理学的细腻。
+  - title: 🎬 电影与音乐
+    details: 周星驰的每部电影我都刷过好几遍。音乐嘛，不同心情听不同的歌。
+  - title: 🏔️ 山川与镜头
+    details: 最近开始认真拍照了，技术还在入门阶段，但拍到喜欢的照片能开心一整天。
 ---

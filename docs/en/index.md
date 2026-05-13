@@ -3,23 +3,23 @@ layout: home
 
 hero:
   name: Flight Space
-  text: Documenting Life & History
-  tagline: A space for personal thoughts and knowledge
+  text: Write a little, live a lot
+  tagline: A personal patch of the internet — photography, books, code, and random thoughts
   actions:
     - theme: brand
-      text: Life Essays
+      text: 📖 Take a Look
       link: /en/life/
     - theme: alt
-      text: History Stories
+      text: 📜 History Stories
       link: /en/history/
 
 features:
-  - title: Life Essays
-    details: Psychology, communication skills, personal insights — recording thoughts and learning along the journey of growth.
-  - title: Book Notes
-    details: Reading notes and reflections on various books, drawing wisdom from the written word.
-  - title: Historical Figures
-    details: Biographies and historical stories — gaining inspiration from others' experiences and the arc of history.
-  - title: Life's Little Joys
-    details: Jokes, movies, music — lighthearted corners of everyday life.
+  - title: 🍵 Life Bits
+    details: Photography, music, movies, dry jokes — the little things that make life fun.
+  - title: 📚 Reading Notes
+    details: Something to keep after finishing a book. From grand history to the subtleties of psychology.
+  - title: 🎬 Movies & Music
+    details: I've watched every Stephen Chow film countless times. Music for every mood.
+  - title: 🏔️ Lens & Mountains
+    details: Started taking photography seriously recently. Still a beginner, but a good shot makes my day.
 ---
