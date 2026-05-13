@@ -35,7 +35,7 @@
   transition: background 0.15s;
 }
 .mood-card .song-item:hover {
-  background: var(--vp-c-bg-mute);
+  background: var(--vp-c-bg-soft);
 }
 .mood-card .song-num {
   font-size: 12px;

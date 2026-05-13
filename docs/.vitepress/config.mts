@@ -15,6 +15,9 @@ export default defineConfig({
             title: 'Flight Space',
             description: 'Felix的生活',
             themeConfig: {
+                socialLinks: [
+                    {icon: 'rss', link: '/flight-space/feed.xml'},
+                ],
                 nav: [
                     {text: '首页', link: '/'},
                     {text: '生活', link: '/life/'},
@@ -101,6 +104,9 @@ export default defineConfig({
             description: "Felix's Space — Life, History, and Thoughts",
             link: '/en/',
             themeConfig: {
+                socialLinks: [
+                    {icon: 'rss', link: '/flight-space/en/feed.xml'},
+                ],
                 nav: [
                     {text: 'Home', link: '/en/'},
                     {text: 'Life', link: '/en/life/'},
@@ -179,7 +185,7 @@ export default defineConfig({
     },
     themeConfig: {
         socialLinks: [
-            {icon: 'rss', link: '/flight-space/feed.xml'},
+            {icon: 'github', link: 'https://github.com/axelwt'},
         ],
         search: {
             provider: 'local',
