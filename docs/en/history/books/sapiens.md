@@ -1,6 +1,7 @@
 ---
 title: "Sapiens: A Brief History of Humankind"
 date: 2026-05-11
+description: Book notes on "Sapiens" — re-examining human history from the Cognitive to the Scientific Revolution
 ---
 
 # Sapiens: A Brief History of Humankind

@@ -1,3 +1,6 @@
+---
+description: 关于我 — 一个喜欢拍照片、写代码、看闲书的人
+---
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-bottom: 16px;">
 
   <img src="/images/felix.jpg" alt="Felix自画像" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />

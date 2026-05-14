@@ -1,3 +1,6 @@
+---
+description: Thoughts, insights, and learning from daily life
+---
 # Life
 
 Thoughts, insights, and learning from daily life.

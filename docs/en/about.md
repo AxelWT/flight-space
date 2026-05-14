@@ -1,3 +1,6 @@
+---
+description: About me — a person who loves photography, coding, and reading
+---
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-bottom: 16px;">
 
   <img src="/images/felix.jpg" alt="Felix" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />

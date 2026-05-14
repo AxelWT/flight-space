@@ -1,5 +1,6 @@
 ---
 layout: home
+description: A personal patch of the internet — photography, books, code, and random thoughts
 
 hero:
   name: Flight Space

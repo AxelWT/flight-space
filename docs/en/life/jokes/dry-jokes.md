@@ -1,3 +1,6 @@
+---
+description: A collection of dry jokes — proceed with a straight face
+---
 # Dry Jokes
 
 > Warning: may cause groaning and eye-rolling. Proceed with a straight face.

@@ -1,3 +1,6 @@
+---
+description: Book notes on "Counseling for Toad" — understanding emotions through Transactional Analysis
+---
 # Counseling for Toad — Robert de Board
 
 > Book Notes

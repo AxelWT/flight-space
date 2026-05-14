@@ -196,8 +196,7 @@ export default defineConfig({
 
         // Chinese RSS
         const zhPosts = await createContentLoader(['life/**/*.md', 'history/**/*.md'], {
-            excerpt: true,
-            render: true,
+            render: false,
         }).load()
         const zhArticles = zhPosts
             .filter(p => p.frontmatter.date)
@@ -216,7 +215,7 @@ ${zhArticles.map(p => `    <item>
       <title>${escapeXml(p.frontmatter.title ?? '')}</title>
       <link>https://axelwt.github.io${base}${p.url}</link>
       <pubDate>${new Date(p.frontmatter.date).toUTCString()}</pubDate>
-      <description><![CDATA[${p.html ?? ''}]]></description>
+      <description><![CDATA[${escapeXml(p.frontmatter.description ?? '')}]]></description>
     </item>`).join('\n')}
   </channel>
 </rss>`
@@ -224,8 +223,7 @@ ${zhArticles.map(p => `    <item>
 
         // English RSS
         const enPosts = await createContentLoader(['en/life/**/*.md', 'en/history/**/*.md'], {
-            excerpt: true,
-            render: true,
+            render: false,
         }).load()
         const enArticles = enPosts
             .filter(p => p.frontmatter.date)
@@ -244,7 +242,7 @@ ${enArticles.map(p => `    <item>
       <title>${escapeXml(p.frontmatter.title ?? '')}</title>
       <link>https://axelwt.github.io${base}${p.url}</link>
       <pubDate>${new Date(p.frontmatter.date).toUTCString()}</pubDate>
-      <description><![CDATA[${p.html ?? ''}]]></description>
+      <description><![CDATA[${escapeXml(p.frontmatter.description ?? '')}]]></description>
     </item>`).join('\n')}
   </channel>
 </rss>`

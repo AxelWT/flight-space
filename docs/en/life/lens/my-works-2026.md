@@ -1,3 +1,6 @@
+---
+description: Photography portfolio 2026 — capturing moments in life through the lens
+---
 # My Photography 2026
 
 Capturing moments in life through the lens.

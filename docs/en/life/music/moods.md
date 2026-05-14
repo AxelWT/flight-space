@@ -1,3 +1,6 @@
+---
+description: Songs organized by mood — music is the footnote of emotion
+---
 # Songs by Mood
 
 > Music is the footnote of emotion. Different moments call for different melodies.

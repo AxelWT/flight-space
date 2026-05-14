@@ -1,3 +1,6 @@
+---
+description: Book notes on "Speaking Well" — analyzing communication, persuasion, negotiation, presentation, and debate
+---
 # Speaking Well — Ma Dong
 
 > Fresh and interesting techniques for mastering the art of speaking

@@ -1,6 +1,7 @@
 ---
 title: "Richard Feynman: The Man Who Taught the World How to Be Curious"
 date: 2026-05-11
+description: Biography of Richard Feynman — the man who taught the world how to be curious
 ---
 
 # Richard Feynman: The Man Who Taught the World How to Be Curious

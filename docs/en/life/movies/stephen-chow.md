@@ -1,3 +1,6 @@
+---
+description: A retrospective on Stephen Chow movies — the king of comedy in Chinese cinema
+---
 # Stephen Chow Movies
 
 > If you don't have a dream, what's the difference between you and a salted fish? —— _Shaolin Soccer_
