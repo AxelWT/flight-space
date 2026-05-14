@@ -1,4 +1,5 @@
 ---
+date: 2026-05-13
 description: A retrospective on Stephen Chow movies — the king of comedy in Chinese cinema
 ---
 # Stephen Chow Movies

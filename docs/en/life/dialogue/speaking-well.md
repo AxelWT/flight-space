@@ -1,4 +1,5 @@
 ---
+date: 2026-05-13
 description: Book notes on "Speaking Well" — analyzing communication, persuasion, negotiation, presentation, and debate
 ---
 # Speaking Well — Ma Dong

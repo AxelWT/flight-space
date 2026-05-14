@@ -1,4 +1,5 @@
 ---
+date: 2026-05-13
 description: A collection of dry jokes — proceed with a straight face
 ---
 # Dry Jokes

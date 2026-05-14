@@ -1,4 +1,5 @@
 ---
+date: 2026-05-13
 description: Book notes on "Counseling for Toad" — understanding emotions through Transactional Analysis
 ---
 # Counseling for Toad — Robert de Board

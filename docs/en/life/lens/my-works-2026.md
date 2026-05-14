@@ -1,4 +1,5 @@
 ---
+date: 2026-05-13
 description: Photography portfolio 2026 — capturing moments in life through the lens
 ---
 # My Photography 2026
