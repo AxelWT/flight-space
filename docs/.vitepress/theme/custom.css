@@ -1,0 +1,229 @@
+/* ===== Home Page — Pure CSS Restyle ===== */
+
+/* --- Background --- */
+.dark .VPHome {
+  background: var(--vp-c-bg);
+  min-height: 100vh;
+}
+
+.VPHome {
+  background: var(--vp-c-bg);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* --- Hero Container --- */
+.VPHomeHero {
+  width: 100%;
+}
+
+.VPHomeHero .container {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem 1.5rem 3rem;
+}
+
+/* --- Profile Photo --- */
+.VPHomeHero .main {
+  position: relative;
+}
+
+.VPHomeHero .main::before {
+  content: '';
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  background-image: url('/flight-space/images/felix.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  border: 3px solid color-mix(in srgb, var(--vp-c-brand-1) 30%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--vp-c-brand-1) 10%, transparent),
+    0 8px 30px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.4s ease;
+}
+
+.VPHomeHero .main:hover::before {
+  transform: scale(1.08);
+  box-shadow:
+    0 0 0 2px color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent),
+    0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* --- Name / Title --- */
+/* Fix heading flex alignment — VitePress renders name+text as flex children */
+.VPHomeHero .main .heading {
+  align-items: center;
+}
+
+.VPHomeHero .name {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.4rem;
+}
+
+.VPHomeHero .clip {
+  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: gradientShift 6s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+}
+
+/* --- Subtitle --- */
+.VPHomeHero .text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+/* --- Tagline --- */
+.VPHomeHero .tagline {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--vp-c-text-2);
+  max-width: 520px;
+  margin: 0 auto 1.5rem;
+  letter-spacing: 0.01em;
+}
+
+/* --- Action Buttons --- */
+.VPHomeHero .actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Brand button */
+.VPHomeHero .actions .action a.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.75rem 2rem;
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px color-mix(in srgb, var(--vp-c-brand-1) 30%, transparent);
+}
+
+.VPHomeHero .actions .action a.brand:hover {
+  transform: translateY(-3px);
+  background: var(--vp-c-brand-2);
+  box-shadow: 0 8px 25px color-mix(in srgb, var(--vp-c-brand-1) 40%, transparent);
+}
+
+/* Alt button */
+.VPHomeHero .actions .action a.alt {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.75rem 2rem;
+  background: transparent;
+  color: var(--vp-c-brand-1);
+  border: 2px solid var(--vp-c-brand-1);
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.VPHomeHero .actions .action a.alt:hover {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px color-mix(in srgb, var(--vp-c-brand-1) 30%, transparent);
+}
+
+/* --- Entry Animation --- */
+.VPHomeHero .main {
+  animation: fadeInUp 0.8s ease 0.02s both;
+}
+
+.VPHomeHero .main > * {
+  animation: fadeInUp 0.8s ease both;
+}
+
+.VPHomeHero .main > *:nth-child(1) { animation-delay: 0.1s; }
+.VPHomeHero .main > *:nth-child(2) { animation-delay: 0.2s; }
+.VPHomeHero .main > *:nth-child(3) { animation-delay: 0.3s; }
+.VPHomeHero .main > *:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPHomeHero .main,
+  .VPHomeHero .main > * {
+    animation: none;
+  }
+}
+
+/* --- Responsive --- */
+@media (max-width: 640px) {
+  .VPHomeHero .container {
+    padding: 4rem 1.25rem 2.5rem;
+  }
+
+  .VPHomeHero .name {
+    font-size: 2.2rem;
+  }
+
+  .VPHomeHero .text {
+    font-size: 1.1rem;
+  }
+
+  .VPHomeHero .tagline {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .VPHomeHero .main::before {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1.5rem;
+  }
+
+  .VPHomeHero .actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .VPHomeHero .actions .action a.brand,
+  .VPHomeHero .actions .action a.alt {
+    width: 220px;
+    justify-content: center;
+  }
+}
