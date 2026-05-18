@@ -61,6 +61,7 @@ export default defineConfig({
                         {
                             text: '摄影',
                             items: [
+                                {text: '《美国纽约摄影学院摄影教材》笔记', link: '/life/lens/美国纽约摄影学院摄影教材笔记'},
                                 {text: '我的作品 2026', link: '/life/lens/我的作品-2026'},
                                 {text: '山川', link: '/life/lens/山川'},
                             ],
