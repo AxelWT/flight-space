@@ -66,6 +66,12 @@ export default defineConfig({
                                 {text: '山川', link: '/life/lens/山川'},
                             ],
                         },
+                        {
+                            text: '心得',
+                            items: [
+                                {text: 'insights-2026', link: '/life/self/insights-2026'},
+                            ],
+                        },
                     ],
                     '/history/': [
                         {
