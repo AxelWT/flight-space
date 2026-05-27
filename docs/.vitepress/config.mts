@@ -5,6 +5,7 @@ import {resolve} from 'node:path'
 export default defineConfig({
     base: '/flight-space/',
     head: [
+        ['link', {rel: 'icon', type: 'image/svg+xml', href: '/flight-space/favicon.svg'}],
         ['link', {rel: 'alternate', type: 'application/rss+xml', title: 'Flight Space (中文)', href: '/flight-space/feed.xml'}],
         ['link', {rel: 'alternate', type: 'application/rss+xml', title: 'Flight Space (English)', href: '/flight-space/en/feed.xml'}],
     ],
