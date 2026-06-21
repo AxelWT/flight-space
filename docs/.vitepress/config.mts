@@ -34,43 +34,22 @@ export default defineConfig({
                             ],
                         },
                         {
-                            text: '沟通',
+                            text: '兴趣',
                             items: [
-                                {text: '《好好说话》', link: '/life/dialogue/《好好说话》'},
-                                {text: '《蛤蟆先生去看心理医生》', link: '/life/dialogue/《蛤蟆先生去看心理医生》'},
-                                {text: '小菜一碟的心态是好是坏', link: '/life/dialogue/小菜一碟的心态是好是坏'},
-                            ],
-                        },
-                        {
-                            text: '幽默',
-                            items: [
-                                {text: '冷笑话', link: '/life/jokes/冷笑话'},
-                            ],
-                        },
-                        {
-                            text: '电影',
-                            items: [
-                                {text: '周星驰系列', link: '/life/movies/周星驰系列电影'},
-                            ],
-                        },
-                        {
-                            text: '音乐',
-                            items: [
-                                {text: '按心情分类', link: '/life/music/按心情分类的歌曲'},
-                            ],
-                        },
-                        {
-                            text: '摄影',
-                            items: [
-                                {text: '《美国纽约摄影学院摄影教材》笔记', link: '/life/lens/美国纽约摄影学院摄影教材笔记'},
-                                {text: '我的作品 2026', link: '/life/lens/我的作品-2026'},
-                                {text: '山川', link: '/life/lens/山川'},
+                                {text: '冷笑话', link: '/life/interests/冷笑话'},
+                                {text: '周星驰系列', link: '/life/interests/周星驰系列电影'},
+                                {text: '按心情分类', link: '/life/interests/按心情分类的歌曲'},
+                                {text: '《美国纽约摄影学院摄影教材》笔记', link: '/life/interests/美国纽约摄影学院摄影教材笔记'},
+                                {text: '我的作品 2026', link: '/life/interests/我的作品-2026'},
+                                {text: '山川', link: '/life/interests/山川'},
                             ],
                         },
                         {
                             text: '心得',
                             items: [
                                 {text: 'insights-2026', link: '/life/self/insights-2026'},
+                                {text: '投资指南（自下而上）', link: '/life/self/invest-guide-bottom-up'},
+                                {text: '投资指南', link: '/life/self/invest-guide'},
                             ],
                         },
                     ],
@@ -130,36 +109,13 @@ export default defineConfig({
                             ],
                         },
                         {
-                            text: 'Dialogue',
+                            text: 'Interests',
                             items: [
-                                {text: 'Speaking Well', link: '/en/life/dialogue/speaking-well'},
-                                {text: 'Counseling for Toad', link: '/en/life/dialogue/counseling-for-toad'},
-                                {text: 'Piece of Cake Mentality', link: '/en/life/dialogue/piece-of-cake-mentality'},
-                            ],
-                        },
-                        {
-                            text: 'Jokes',
-                            items: [
-                                {text: 'Dry Jokes', link: '/en/life/jokes/dry-jokes'},
-                            ],
-                        },
-                        {
-                            text: 'Movies',
-                            items: [
-                                {text: 'Stephen Chow', link: '/en/life/movies/stephen-chow'},
-                            ],
-                        },
-                        {
-                            text: 'Music',
-                            items: [
-                                {text: 'Songs by Mood', link: '/en/life/music/moods'},
-                            ],
-                        },
-                        {
-                            text: 'Photography',
-                            items: [
-                                {text: 'My Works 2026', link: '/en/life/lens/my-works-2026'},
-                                {text: 'Mountains', link: '/en/life/lens/mountains'},
+                                {text: 'Dry Jokes', link: '/en/life/interests/dry-jokes'},
+                                {text: 'Stephen Chow', link: '/en/life/interests/stephen-chow'},
+                                {text: 'Songs by Mood', link: '/en/life/interests/moods'},
+                                {text: 'My Works 2026', link: '/en/life/interests/my-works-2026'},
+                                {text: 'Mountains', link: '/en/life/interests/mountains'},
                             ],
                         },
                     ],
