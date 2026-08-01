@@ -47,6 +47,7 @@ export default defineConfig({
                         {
                             text: '心得',
                             items: [
+                                {text: '八月随笔', link: '/life/self/notes-2026-08'},
                                 {text: 'insights-2026', link: '/life/self/insights-2026'},
                                 {text: '投资指南（自下而上）', link: '/life/self/invest-guide-bottom-up'},
                                 {text: '投资指南', link: '/life/self/invest-guide'},
@@ -116,6 +117,12 @@ export default defineConfig({
                                 {text: 'Songs by Mood', link: '/en/life/interests/moods'},
                                 {text: 'My Works 2026', link: '/en/life/interests/my-works-2026'},
                                 {text: 'Mountains', link: '/en/life/interests/mountains'},
+                            ],
+                        },
+                        {
+                            text: 'Insights',
+                            items: [
+                                {text: 'August Notes', link: '/en/life/self/notes-2026-08'},
                             ],
                         },
                     ],
