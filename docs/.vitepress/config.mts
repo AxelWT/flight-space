@@ -44,19 +44,21 @@ export default defineConfig({
                             text: '兴趣',
                             items: [
                                 {text: '冷笑话', link: '/life/interests/冷笑话'},
-                                {text: '周星驰系列', link: '/life/interests/周星驰系列电影'},
-                                {text: '按心情分类', link: '/life/interests/按心情分类的歌曲'},
-                                {text: '《美国纽约摄影学院摄影教材》笔记', link: '/life/interests/美国纽约摄影学院摄影教材笔记'},
-                                {text: '我的作品 2026', link: '/life/interests/我的作品-2026'},
+                                {text: '幽默感', link: '/life/interests/幽默感'},
+                                {text: '周星驰系列', link: '/life/interests/电影'},
+                                {text: '按心情分类', link: '/life/interests/歌曲'},
+                                {text: '摄影教材', link: '/life/interests/构图'},
+                                {text: '摄影作品-2026', link: '/life/interests/作品-2026'},
                                 {text: '山川', link: '/life/interests/山川'},
+                                {text: '灵感', link: '/life/interests/灵感'},
                             ],
                         },
                         {
                             text: '心得',
                             items: [
                                 {text: '八月随笔', link: '/life/self/notes-2026-08'},
-                                {text: 'insights-2026', link: '/life/self/insights-2026'},
-                                {text: '投资指南（自下而上）', link: '/life/self/invest-guide-bottom-up'},
+                                {text: '七月随笔', link: '/life/self/insights-2026'},
+                                {text: '投资指北', link: '/life/self/invest-guide-bottom-up'},
                                 {text: '投资指南', link: '/life/self/invest-guide'},
                             ],
                         },
@@ -129,6 +131,7 @@ export default defineConfig({
                         {
                             text: 'Insights',
                             items: [
+                                {text: 'July Notes', link: '/en/life/self/insights-2026'},
                                 {text: 'August Notes', link: '/en/life/self/notes-2026-08'},
                             ],
                         },
