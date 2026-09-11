@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import './styles/tokens.css'
 import './styles/base.css'
-import './styles/home.css'
+import './styles/gate.css'
 import HomePage from './components/HomePage.vue'
 import PaperCard from './components/PaperCard.vue'
 import SectionLabel from './components/SectionLabel.vue'

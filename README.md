@@ -125,7 +125,11 @@ your-domain.com
 
 ## 主题与首页
 
-站点主题在 `docs/.vitepress/theme/`，风格参考 [lefos.com](https://lefos.com)：暖纸底、衬线正文、等宽标签、零圆角、虚线分隔。
+站点主题在 `docs/.vitepress/theme/`，风格参考 [lefos.com](https://lefos.com)：暖纸底、衬线正文、零圆角、虚线分隔。
+
+首页是一个「门厅」（`docs/index.md` 用 `layout: false`，不渲染导航和页脚）：居中 wordmark → 下方一行大写「进入」→ 四角固定的小标签，入场是三者依次淡入（0.5s / 1.5s / 2.9s）。进入正文后才是常规的导航 + 侧栏布局。
+
+门厅上**没有可见的叶子**，只有窗外树影落在纸面上的斑驳光斑：`dapple.ts` 生成远 / 中 / 近三层影子（越远越模糊、越淡、动得越慢），每簇再拆成两组、节奏与位移方向都不同，所以影子是一边移动一边变形，而不是整块平移。每簇影子外层只做 `transform` / `opacity`（可合成），高斯模糊放在静态内层，浏览器栅格化一次即可。
 
 ```
 docs/.vitepress/theme/
@@ -133,9 +137,11 @@ docs/.vitepress/theme/
 ├── styles/
 │   ├── tokens.css           # 设计令牌 + 映射到 VitePress 变量
 │   ├── base.css             # 导航 / 侧栏 / 正文 / 代码 / 页脚
-│   └── home.css             # 首页专用样式
+│   └── gate.css             # 首页门厅样式
+├── dapple.ts                # 程序化生成树影（分层景深 + 确定性随机）
 ├── components/
-│   ├── HomePage.vue         # 首页整页版式
+│   ├── HomePage.vue         # 首页门厅
+│   ├── GateDapple.vue       # 缓慢晃动的树叶影子
 │   ├── PaperCard.vue        # 纸片卡片
 │   └── SectionLabel.vue     # 大写等宽小标签
 └── notes.data.mts           # 构建期读取文章列表（中文）

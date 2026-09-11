@@ -72,13 +72,38 @@ body {
   border-bottom: 1px solid var(--fs-ink);
 }
 
-.VPNavBarAppearance,
-.VPSwitchAppearance {
-  border-radius: 0;
+/* --- 深浅色切换开关 ---
+   外框是胶囊形，滑块必须同样圆润并内嵌在框里，否则一方一圆会打架。
+   这些选择器写成两三个类，是为了压过默认主题里带 scoped 属性的规则。 */
+
+.VPSwitch.VPSwitchAppearance {
+  border-radius: 999px;
+  border-color: var(--fs-line);
+  background-color: var(--fs-line-soft);
+  transition:
+    border-color 0.25s ease,
+    background-color 0.25s ease;
 }
 
-.VPNavBarAppearance .check {
-  border-radius: 0;
+.VPSwitch.VPSwitchAppearance:hover {
+  border-color: var(--fs-line);
+  background-color: color-mix(in srgb, var(--fs-line) 45%, transparent);
+}
+
+/* 滑块：圆形，和胶囊框同心内嵌 */
+.VPSwitchAppearance .check {
+  border-radius: 50%;
+  background-color: var(--fs-ink);
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--fs-ink) 35%, transparent);
+}
+
+.VPSwitchAppearance .check .icon {
+  border-radius: 50%;
+}
+
+/* 滑块里的太阳 / 月亮跟着反相 */
+.VPSwitchAppearance .check .icon [class^="vpi-"] {
+  color: var(--fs-bg);
 }
 
 /* 导航里的搜索按钮 */
@@ -584,17 +609,12 @@ body {
 
 .VPBadge,
 .VPButton,
-.VPSwitch,
 .VPSocialLink,
 .VPDocAsideOutline .outline-marker,
 .VPLink,
 .vp-doc .mermaid,
 .vp-doc .vp-code-group .tabs,
 .vp-doc .vp-code-group .tabs label {
-  border-radius: 0;
-}
-
-.VPSwitch {
   border-radius: 0;
 }
 

@@ -45,6 +45,10 @@
   --fs-terracotta: #844f3b;
   --fs-sage: #626245;
   --fs-sunkissed: #927247;
+  /* 树影与光 */
+  --fs-dapple: #4a3b2a;
+  --fs-light: rgba(255, 249, 238, 0.55);
+  --fs-shade: rgba(66, 54, 42, 0.07);
 
   /* 虚线：全站用重复渐变画，比 border-style: dashed 更细、间距更好控 */
   --fs-dash: repeating-linear-gradient(
@@ -69,6 +73,9 @@ html.dark {
   --fs-terracotta: #b86b52;
   --fs-sage: #a3a473;
   --fs-sunkissed: #e1b06e;
+  --fs-dapple: #cfd9e6;
+  --fs-light: rgba(150, 178, 214, 0.1);
+  --fs-shade: rgba(0, 0, 0, 0.3);
   --fs-shadow: 0 10px 30px rgba(0, 0, 0, 0.38);
   --fs-shadow-hover: 0 16px 40px rgba(0, 0, 0, 0.5);
 }
