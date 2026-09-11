@@ -1,12 +1,86 @@
 ---
 title: "2026 Notes"
-date: 2026-07-01
+date: 2026-09-01
 description: Collected notes from 2026
 tags:
   - notes
 ---
 
 # 2026 Notes
+
+## September
+
+### 1. Taste
+
+```
+Steve Jobs on Microsoft (1995, Triumph of the Nerds):
+
+"The only problem with Microsoft is they just have no taste. They have absolutely no taste. I don't mean that in a small way, I mean that in a big way."
+
+He went further: "no taste" didn't mean they couldn't build good things — it meant "they don't think of original ideas, and they don't bring much culture into their products."
+
+On where taste comes from:
+"Good taste is about exposure, not about being born with it."
+
+"In order to have good taste, you have to expose yourself to the best things humans have done, and then try to bring those things into what you're doing."
+
+Picasso: "Good artists copy, great artists steal." Jobs agreed —
+Taste isn't creating from nothing; it's "stealing" the best things you've seen into your own work.
+```
+
+## August
+
+### 1. Sense of Failure: Reflect or Ruminate?
+
+```
+Dilemma: When I feel a sense of failure, one voice says dig out the root cause and find a fix; the other says enough, stop thinking — too much pressure. How to strike a balance?
+
+Approach 1 — Allow thinking, but with boundaries: Set 5 minutes specifically to review; typing or writing by hand clarifies thinking. When time's up, tell yourself "Today's thinking quota is used up. Tomorrow."
+
+Approach 2 — Distinguish useful reflection from useless rumination: Any painful thought becomes clearer once written down, and the emotional intensity drops.
+- Does this problem have an answer right now? Yes → Turn it into an action item, stop.
+- Am I looking for the cause, or scolding myself? Cause → 5-minute review; Scolding → Stop immediately.
+```
+
+### 2. Influence: Output, Don't Show Off
+
+```
+I want to be a person of influence.
+[Summary: Output but don't show off; prove — but mostly to yourself.]
+
+So I will output — output content that helps others and has value.
+(Your insights — for example, your own breakthroughs on technical standards — are all output of what your soul possesses, attracting others' recognition and long-term trust/respect.)
+
+But I don't need to show off (e.g., flaunting what threshold I've crossed, what resources I have — once the resources are gone, the crowd scatters; external things have not been internalized into your soul).
+
+Finally, I don't want my talents to go unrecognized. I'm an E-type; what I want to output is something of my own soul, to find recognition.
+[What's in your head, the way you solve problems, what's in your eyes — you, the person yourself.]
+
+----- One layer deeper -----
+
+Whether flaunting wealth, acting cool, or outputting insight, the underlying drive is the same: I want to be seen, recognized, valued. This is a human social instinct, not a flaw — it's even fuel for creativity.
+
+⚠️ The real question is never "I want to be recognized" — it's WHAT I trade for recognition!
+Flaunting resources: wanting others to recognize me for what I own
+[You have it, I don't, so I look up to you — but when you no longer have resources, who still cares about you?]
+Outputting insight: wanting others to recognize me for what I produce
+[What you say and do is useful to me, so I trust you — and trust deepens over time.]
+
+⚠️ Once you understand these questions, you're not killing desire — you're upgrading it.
+
+----- Related: On proving ----
+
+Wanting to prove yourself is not wrong in itself; it's one of the engines of human evolution. What's wrong is handing the judgeship of proof over to others.
+[Proving to yourself: hit your own goals, grow, feel your own growth, become more confident.
+Proving to others: others may be in a bad mood and not bother to praise you; if you threaten them, they suppress you; everyone has different standards.]
+
+So on the path of pursuing influence, should you prove?
+
+Yes. When you output insight and soul-level content, you're still proving — but what you're proving is "my understanding of the world has value, my ability to solve problems is real."
+
+And this proving is invitational, not coercive:
+I don't force you to recognize me; I put things here, and if you find them useful, you'll naturally be drawn in; if you're not, it doesn't stop me from continuing to polish.
+```
 
 ## July
 
@@ -66,64 +140,4 @@ The trap of pursuing "being above others" is that the standard is external, rela
 - Science is not a stance, not politics, and does not compromise for power — it is objective facts and laws
 - Following science means using mathematical reasoning and data quantification to qualitatively and quantitatively describe problems, describe facts, and solve problems
 - The core spirit of science: falsifiability — a theory that cannot be falsified does not belong to the realm of science
-```
-
-## August
-
-### 1. Sense of Failure: Reflect or Ruminate?
-
-```
-Dilemma: When I feel a sense of failure, one voice says dig out the root cause and find a fix; the other says enough, stop thinking — too much pressure. How to strike a balance?
-
-Approach 1 — Allow thinking, but with boundaries: Set 5 minutes specifically to review; typing or writing by hand clarifies thinking. When time's up, tell yourself "Today's thinking quota is used up. Tomorrow."
-
-Approach 2 — Distinguish useful reflection from useless rumination: Any painful thought becomes clearer once written down, and the emotional intensity drops.
-- Does this problem have an answer right now? Yes → Turn it into an action item, stop.
-- Am I looking for the cause, or scolding myself? Cause → 5-minute review; Scolding → Stop immediately.
-```
-
-### 2. Influence: Output, Don't Show Off
-
-```
-I want to be a person of influence.
-[Summary: Output but don't show off; prove — but mostly to yourself.]
-
-So I will output — output content that helps others and has value.
-(Your insights — for example, your own breakthroughs on technical standards — are all output of what your soul possesses, attracting others' recognition and long-term trust/respect.)
-
-But I don't need to show off (e.g., flaunting what threshold I've crossed, what resources I have — once the resources are gone, the crowd scatters; external things have not been internalized into your soul).
-
-Finally, I don't want my talents to go unrecognized. I'm an E-type; what I want to output is something of my own soul, to find recognition.
-[What's in your head, the way you solve problems, what's in your eyes — you, the person yourself.]
-
------ One layer deeper -----
-
-Whether flaunting wealth, acting cool, or outputting insight, the underlying drive is the same: I want to be seen, recognized, valued. This is a human social instinct, not a flaw — it's even fuel for creativity.
-
-⚠️ The real question is never "I want to be recognized" — it's WHAT I trade for recognition!
-Flaunting resources: wanting others to recognize me for what I own
-[You have it, I don't, so I look up to you — but when you no longer have resources, who still cares about you?]
-Outputting insight: wanting others to recognize me for what I produce
-[What you say and do is useful to me, so I trust you — and trust deepens over time.]
-
-⚠️ Once you understand these questions, you're not killing desire — you're upgrading it.
-
------ Related: On proving ----
-
-Wanting to prove yourself is not wrong in itself; it's one of the engines of human evolution. What's wrong is handing the judgeship of proof over to others.
-[Proving to yourself: hit your own goals, grow, feel your own growth, become more confident.
-Proving to others: others may be in a bad mood and not bother to praise you; if you threaten them, they suppress you; everyone has different standards.]
-
-So on the path of pursuing influence, should you prove?
-
-Yes. When you output insight and soul-level content, you're still proving — but what you're proving is "my understanding of the world has value, my ability to solve problems is real."
-
-And this proving is invitational, not coercive:
-I don't force you to recognize me; I put things here, and if you find them useful, you'll naturally be drawn in; if you're not, it doesn't stop me from continuing to polish.
-```
-
-## September
-
-```
-(To be written)
 ```

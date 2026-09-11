@@ -8,12 +8,12 @@ description: 关于我 — 一个喜欢拍照片、写代码、看闲书的人
 
   <div>
     <h1 style="margin: 0; border: none; padding: 0;">王腾飞</h1>
-    <p style="margin: 4px 0 0; color: var(--vp-c-text-2); font-size: 15px;">一个喜欢拍照片、写代码、看闲书的人</p>
+    <p style="margin: 4px 0 0; color: var(--vp-c-text-2); font-size: 15px;">一个喜欢运动、摄影、钻研的人</p>
   </div>
 
 </div>
 
-你好，我是 Felix。和大多数普通人一样，工作日朝九晚六，周末看看电影吃吃饭，偶尔兴起给自己找点折腾的事情。
+你好，我是王腾飞 ｜ Felix。
 
 ## 我在做什么
 
