@@ -8,6 +8,13 @@ export default defineConfig({
         ['link', {rel: 'icon', type: 'image/svg+xml', href: '/flight-space/favicon.svg'}],
         ['link', {rel: 'alternate', type: 'application/rss+xml', title: 'Flight Space (中文)', href: '/flight-space/feed.xml'}],
         ['link', {rel: 'alternate', type: 'application/rss+xml', title: 'Flight Space (English)', href: '/flight-space/en/feed.xml'}],
+        // 默认浅色（纸感主题），用户手动切换后记住选择。
+        // 这段脚本必须在默认主题的 check-dark-mode 之前执行，所以放在 head 里。
+        [
+            'script',
+            {},
+            `try{if(!localStorage.getItem('vitepress-theme-appearance'))localStorage.setItem('vitepress-theme-appearance','light')}catch(e){}`,
+        ],
     ],
     locales: {
         root: {

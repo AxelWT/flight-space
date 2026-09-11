@@ -1,0 +1,616 @@
+/* ============================================================
+   Flight Space — 全局主题覆盖
+   导航 / 侧栏 / 正文 / 代码 / 搜索 / 页脚
+   ============================================================ */
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--fs-bg);
+  color: var(--fs-ink);
+  font-family: var(--fs-font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--fs-accent);
+  color: var(--fs-accent-ink);
+}
+
+:focus-visible {
+  outline: 1px solid var(--fs-accent);
+  outline-offset: 2px;
+}
+
+/* ============================================================
+   顶部导航
+   ============================================================ */
+
+.VPNavBar {
+  background: var(--fs-bg) !important;
+  backdrop-filter: none;
+}
+
+.VPNavBar .divider {
+  background: transparent;
+  height: 1px;
+}
+
+.VPNavBar .divider .divider-line {
+  height: 1px;
+  background-image: var(--fs-dash);
+}
+
+.VPNavBarTitle .title {
+  font-family: var(--fs-font-serif);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--fs-ink);
+  border-bottom: none;
+}
+
+.VPNavBarMenuLink {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--fs-ink-3);
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
+}
+
+.VPNavBarMenuLink:hover,
+.VPNavBarMenuLink.active {
+  color: var(--fs-ink);
+}
+
+/* 当前项用一条短下划线标记，而不是变色块 */
+.VPNavBarMenuLink.active {
+  border-bottom: 1px solid var(--fs-ink);
+}
+
+.VPNavBarAppearance,
+.VPSwitchAppearance {
+  border-radius: 0;
+}
+
+.VPNavBarAppearance .check {
+  border-radius: 0;
+}
+
+/* 导航里的搜索按钮 */
+.DocSearch-Button {
+  border: 1px solid var(--fs-line-soft);
+  border-radius: 0;
+  background: transparent;
+  padding: 0 10px;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.DocSearch-Button:hover {
+  border-color: var(--fs-line);
+  background: var(--fs-bg-soft);
+  box-shadow: none;
+}
+
+.DocSearch-Button .DocSearch-Button-Placeholder {
+  font-family: var(--fs-font-mono);
+  font-size: 11px;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+.DocSearch-Button .DocSearch-Button-Keys,
+.DocSearch-Button .DocSearch-Button-Key {
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid var(--fs-line-soft);
+  font-family: var(--fs-font-mono);
+}
+
+/* ============================================================
+   侧边栏
+   ============================================================ */
+
+.VPSidebar {
+  background: var(--fs-bg);
+  border-right: 1px dashed var(--fs-line);
+}
+
+.VPSidebar .curtain {
+  background: var(--fs-bg);
+}
+
+.VPSidebar .nav .group + .group {
+  border-top: 1px dashed var(--fs-line);
+  margin-top: 20px;
+  padding-top: 18px;
+}
+
+.VPSidebarItem .item {
+  border-radius: 0;
+}
+
+.VPSidebarItem .text {
+  font-family: var(--fs-font-sans);
+  font-size: 13.5px;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  padding: 4px 0;
+}
+
+/* 分组标题（兴趣 / 心得 …）走等宽大写小标签 */
+.VPSidebarItem.level-0 > .item > .text {
+  font-family: var(--fs-font-mono);
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: var(--fs-track-label);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+.VPSidebarItem.level-1 .text,
+.VPSidebarItem.level-2 .text {
+  color: var(--fs-ink-2);
+}
+
+.VPSidebarItem.level-1.is-link .item:hover .text,
+.VPSidebarItem.level-2.is-link .item:hover .text,
+.VPSidebarItem.is-active > .item .text {
+  color: var(--fs-ink);
+}
+
+.VPSidebarItem .indicator {
+  border-radius: 0;
+  width: 2px;
+  background: var(--fs-accent);
+}
+
+.VPSidebarItem .caret {
+  color: var(--fs-ink-3);
+}
+
+/* 移动端顶部菜单条 */
+.VPLocalNav {
+  background: var(--fs-bg);
+  border-bottom: 1px dashed var(--fs-line);
+}
+
+.VPLocalNav .menu,
+.VPLocalNav .menu-text {
+  font-family: var(--fs-font-mono);
+  font-size: 11px;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+/* ============================================================
+   正文（文章页）
+   ============================================================ */
+
+.vp-doc {
+  font-family: var(--fs-font-serif);
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: var(--fs-ink);
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
+  font-family: var(--fs-font-serif);
+  font-weight: 400;
+  color: var(--fs-ink);
+}
+
+.vp-doc h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.2rem;
+}
+
+.vp-doc h2 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  letter-spacing: -0.005em;
+  margin-top: 3rem;
+  padding-top: 1.4rem;
+  border-top: 1px dashed var(--fs-line);
+}
+
+.vp-doc h3 {
+  font-size: 1.15rem;
+  line-height: 1.45;
+  margin-top: 2.2rem;
+}
+
+.vp-doc h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.9;
+}
+
+.vp-doc a {
+  color: var(--fs-ink);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--fs-line);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
+}
+
+.vp-doc a:hover {
+  color: var(--fs-accent);
+  text-decoration-color: currentColor;
+}
+
+.vp-doc strong {
+  font-weight: 600;
+}
+
+.vp-doc blockquote {
+  border-left: 2px solid var(--fs-line);
+  background: transparent;
+  padding: 0.2rem 0 0.2rem 1.2rem;
+  margin: 1.6rem 0;
+  font-style: italic;
+  color: var(--fs-ink-2);
+}
+
+.vp-doc blockquote > p {
+  font-size: 1.02em;
+}
+
+.vp-doc hr {
+  border: none;
+  height: 1px;
+  background-image: var(--fs-dash);
+  margin: 2.6rem 0;
+}
+
+.vp-doc img {
+  border: 1px solid var(--fs-line-soft);
+  border-radius: 0;
+}
+
+.vp-doc ul,
+.vp-doc ol {
+  padding-left: 1.3rem;
+}
+
+.vp-doc li::marker {
+  color: var(--fs-ink-3);
+}
+
+/* 列表样式：方头标记，不用圆点 */
+.vp-doc ul > li::marker {
+  content: "—  ";
+  font-family: var(--fs-font-mono);
+}
+
+/* --- 行内代码 / 代码块 --- */
+
+.vp-doc :not(pre) > code {
+  font-family: var(--fs-font-mono);
+  font-size: 0.84em;
+  letter-spacing: 0;
+  background: var(--fs-bg-soft);
+  border: 1px solid var(--fs-line-soft);
+  border-radius: 0;
+  padding: 1px 5px;
+  color: var(--fs-terracotta);
+}
+
+.vp-doc a > code {
+  color: currentColor;
+}
+
+.vp-doc div[class*="language-"] {
+  border-radius: 0;
+  border: 1px solid var(--fs-line-soft);
+  background: var(--fs-bg-soft);
+}
+
+.vp-doc div[class*="language-"] pre,
+.vp-doc div[class*="language-"] code {
+  font-family: var(--fs-font-mono);
+  border-radius: 0;
+}
+
+.vp-doc div[class*="language-"]::before {
+  font-family: var(--fs-font-mono);
+  font-size: 10px;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+.vp-doc [class*="language-"] .copy,
+.vp-doc [class*="language-"] .lang {
+  color: var(--fs-ink-3);
+}
+
+/* --- 表格 --- */
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--fs-font-sans);
+  font-size: 14px;
+}
+
+.vp-doc th {
+  font-family: var(--fs-font-mono);
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+  border: none;
+  border-bottom: 1px solid var(--fs-line);
+  background: transparent;
+  text-align: left;
+  padding: 10px 12px;
+}
+
+.vp-doc td {
+  border: none;
+  border-bottom: 1px dashed var(--fs-line-soft);
+  padding: 10px 12px;
+  background: transparent;
+}
+
+.vp-doc tr {
+  background: transparent;
+}
+
+/* --- 自定义容器 --- */
+
+.vp-doc .custom-block {
+  border-radius: 0;
+  border-width: 1px;
+  border-style: dashed;
+  background: var(--fs-bg-soft);
+  color: var(--fs-ink-2);
+}
+
+.vp-doc .custom-block .custom-block-title {
+  font-family: var(--fs-font-mono);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink);
+}
+
+.vp-doc .custom-block a {
+  color: var(--fs-ink);
+}
+
+/* ============================================================
+   右侧大纲
+   ============================================================ */
+
+.VPDocAsideOutline .outline-title {
+  font-family: var(--fs-font-mono);
+  font-size: 10.5px;
+  letter-spacing: var(--fs-track-label);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+.VPDocAsideOutline .outline-link {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--fs-ink-3);
+  transition: color 0.2s ease;
+}
+
+.VPDocAsideOutline .outline-link:hover,
+.VPDocAsideOutline .outline-link.active {
+  color: var(--fs-ink);
+}
+
+.VPDocAsideOutline .outline-marker {
+  background: var(--fs-accent);
+  border-radius: 0;
+  width: 2px;
+}
+
+/* ============================================================
+   上一页 / 下一页
+   ============================================================ */
+
+.VPDocFooter .prev-next {
+  border-top: 1px dashed var(--fs-line);
+  padding-top: 20px;
+}
+
+.VPDocFooter .pager-link {
+  border-radius: 0;
+  border: 1px solid var(--fs-line-soft);
+  background: transparent;
+  transition:
+    border-color 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.VPDocFooter .pager-link:hover {
+  border-color: var(--fs-line);
+  background: var(--fs-bg-soft);
+}
+
+.VPDocFooter .pager-link .desc {
+  font-family: var(--fs-font-mono);
+  font-size: 10.5px;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+.VPDocFooter .pager-link .title {
+  font-family: var(--fs-font-serif);
+  font-size: 15px;
+  color: var(--fs-ink);
+}
+
+.VPDocFooter .last-updated-text,
+.VPDocFooter .edit-link-button {
+  font-family: var(--fs-font-mono);
+  font-size: 11px;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+/* ============================================================
+   页脚：左公司 / 右版权，做成底角排版
+   ============================================================ */
+
+.VPFooter {
+  border-top: 1px dashed var(--fs-line);
+  background: var(--fs-bg);
+}
+
+.VPFooter .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 22px 24px;
+  text-align: left;
+}
+
+.VPFooter .message,
+.VPFooter .copyright {
+  font-family: var(--fs-font-mono);
+  font-size: 10.5px;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .VPFooter .container {
+    flex-direction: column;
+    gap: 6px;
+    padding: 18px 20px;
+  }
+}
+
+/* ============================================================
+   本地搜索弹窗
+   ============================================================ */
+
+.VPLocalSearchBox .shell {
+  border-radius: 0;
+  border: 1px solid var(--fs-line);
+  background: var(--fs-bg);
+  box-shadow: var(--fs-shadow-hover);
+}
+
+.VPLocalSearchBox .search-bar {
+  border-bottom: 1px dashed var(--fs-line);
+  border-radius: 0;
+}
+
+.VPLocalSearchBox .search-input {
+  font-family: var(--fs-font-sans);
+  color: var(--fs-ink);
+}
+
+.VPLocalSearchBox .results {
+  padding: 0;
+}
+
+.VPLocalSearchBox .result {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px dashed var(--fs-line-soft);
+  background: transparent;
+  margin: 0;
+}
+
+.VPLocalSearchBox .result.selected {
+  background: color-mix(in srgb, var(--fs-surface) 45%, transparent);
+}
+
+.VPLocalSearchBox .title {
+  font-family: var(--fs-font-serif);
+  color: var(--fs-ink);
+}
+
+.VPLocalSearchBox .titles {
+  border-bottom: 1px dashed var(--fs-line-soft);
+}
+
+.VPLocalSearchBox .title-icon,
+.VPLocalSearchBox .excerpt {
+  color: var(--fs-ink-2);
+}
+
+.VPLocalSearchBox .no-results {
+  font-family: var(--fs-font-mono);
+  font-size: 11px;
+  letter-spacing: var(--fs-track-mono);
+  text-transform: uppercase;
+  color: var(--fs-ink-3);
+}
+
+/* ============================================================
+   通配：默认主题里所有圆角一律归零
+   ============================================================ */
+
+.VPBadge,
+.VPButton,
+.VPSwitch,
+.VPSocialLink,
+.VPDocAsideOutline .outline-marker,
+.VPLink,
+.vp-doc .mermaid,
+.vp-doc .vp-code-group .tabs,
+.vp-doc .vp-code-group .tabs label {
+  border-radius: 0;
+}
+
+.VPSwitch {
+  border-radius: 0;
+}
+
+/* 滚动条 */
+@media (min-width: 960px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--fs-line-soft);
+    border: 3px solid var(--fs-bg);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--fs-line);
+  }
+}

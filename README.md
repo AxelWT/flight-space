@@ -122,3 +122,24 @@ your-domain.com
 ## 写作
 
 在 `docs/` 目录下新建 `.md` 文件即可添加内容。新增页面后需在 `docs/.vitepress/config.mts` 的 `sidebar` 中添加对应条目。
+
+## 主题与首页
+
+站点主题在 `docs/.vitepress/theme/`，风格参考 [lefos.com](https://lefos.com)：暖纸底、衬线正文、等宽标签、零圆角、虚线分隔。
+
+```
+docs/.vitepress/theme/
+├── index.js                 # 注册全局组件
+├── styles/
+│   ├── tokens.css           # 设计令牌 + 映射到 VitePress 变量
+│   ├── base.css             # 导航 / 侧栏 / 正文 / 代码 / 页脚
+│   └── home.css             # 首页专用样式
+├── components/
+│   ├── HomePage.vue         # 首页整页版式
+│   ├── PaperCard.vue        # 纸片卡片
+│   └── SectionLabel.vue     # 大写等宽小标签
+└── notes.data.mts           # 构建期读取文章列表（中文）
+    enNotes.data.mts         # 同上（英文）
+```
+
+改配色只需动 `styles/tokens.css` 里的 `--fs-*` 变量（浅色在 `:root`，暗色在 `html.dark`）。字体全部使用系统栈，不下载 webfont。
