@@ -28,6 +28,21 @@ Picasso: "Good artists copy, great artists steal." Jobs agreed —
 Taste isn't creating from nothing; it's "stealing" the best things you've seen into your own work.
 ```
 
+### 2. Joking
+
+```
+Timing matters: wait for the other person to reveal an emotional opening (an anchor), then tease along it — that's when it lands.
+Forcing a joke about someone with no anchor is mostly just offense.
+
+So the rule:
+- Jokes about others: wait for the anchor; if there's none, don't
+- Jokes about yourself: go ahead, self-deprecation is safe
+- Often "hahaha" isn't genuine laughter — it's a tool to dissolve awkwardness
+  Laughter is social lubricant, not humor itself
+
+A joke is funny not because of the joke itself, but because "they were ready for it."
+```
+
 ## August
 
 ### 1. Sense of Failure: Reflect or Ruminate?
