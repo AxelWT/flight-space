@@ -56,9 +56,7 @@ export default defineConfig({
                         {
                             text: '心得',
                             items: [
-                                {text: '九月随笔', link: '/life/self/notes-2026-09'},
-                                {text: '八月随笔', link: '/life/self/notes-2026-08'},
-                                {text: '七月随笔', link: '/life/self/notes-2026-07'},
+                                {text: '二零二六随笔', link: '/life/self/notes-2026'},
                                 {text: '投资指北', link: '/life/self/invest-guide-bottom-up'},
                                 {text: '投资指南', link: '/life/self/invest-guide'},
                             ],
@@ -132,9 +130,7 @@ export default defineConfig({
                         {
                             text: 'Insights',
                             items: [
-                                {text: 'September Notes', link: '/en/life/self/notes-2026-09'},
-                                {text: 'August Notes', link: '/en/life/self/notes-2026-08'},
-                                {text: 'July Notes', link: '/en/life/self/notes-2026-07'},
+                                {text: '2026 Notes', link: '/en/life/self/notes-2026'},
                             ],
                         },
                     ],
