@@ -15,6 +15,13 @@ export default defineConfig({
             {},
             `try{if(!localStorage.getItem('vitepress-theme-appearance'))localStorage.setItem('vitepress-theme-appearance','light')}catch(e){}`,
         ],
+        // 首页风格主题（gate 门厅 / paper 纸片）：在 Vue 挂载之前把选择写到 <html> 上，
+        // 避免 useHomeTheme 读到默认值后闪屏。
+        [
+            'script',
+            {},
+            `try{var t=localStorage.getItem('flight-space-home-theme');if(t)document.documentElement.setAttribute('data-home-theme',t)}catch(e){}`,
+        ],
     ],
     locales: {
         root: {
