@@ -56,7 +56,6 @@ export default defineConfig({
                                 {text: '按心情分类', link: '/life/interests/歌曲'},
                                 {text: '摄影教材', link: '/life/interests/构图'},
                                 {text: '摄影集', link: '/life/interests/摄影集'},
-                                {text: '山川', link: '/life/interests/山川'},
                                 {text: '灵感', link: '/life/interests/灵感'},
                             ],
                         },
@@ -131,7 +130,6 @@ export default defineConfig({
                                 {text: 'Stephen Chow', link: '/en/life/interests/stephen-chow'},
                                 {text: 'Songs by Mood', link: '/en/life/interests/moods'},
                                 {text: 'Photography', link: '/en/life/interests/photography'},
-                                {text: 'Mountains', link: '/en/life/interests/mountains'},
                             ],
                         },
                         {

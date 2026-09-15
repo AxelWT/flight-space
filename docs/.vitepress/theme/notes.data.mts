@@ -1,7 +1,7 @@
 import { createContentLoader } from 'vitepress'
 
 interface Note {
-  /** 不含 base 的站内路径，如 /life/interests/山川.html */
+  /** 不含 base 的站内路径，如 /life/interests/摄影集.html */
   url: string
   title: string
   /** 已格式化为 2026.08.01 */
